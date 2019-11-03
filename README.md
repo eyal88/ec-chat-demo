@@ -1,4 +1,4 @@
-# vue-ec-chat
+# ec-chat demo
 
 ## Project setup
 ```

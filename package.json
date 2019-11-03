@@ -1,5 +1,5 @@
 {
-  "name": "vue-ec-chat",
+  "name": "ec-chat-test",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,15 @@
   },
   "dependencies": {
     "core-js": "^3.3.2",
-    "vue": "^2.6.10"
+    "date-fns": "^2.6.0",
+    "ec-chat": "^0.1.0",
+    "fuse.js": "^3.4.5",
+    "tippy.js": "^5.1.0",
+    "tiptap": "^1.26.4",
+    "tiptap-commands": "^1.12.3",
+    "tiptap-extensions": "^1.28.4",
+    "vue": "^2.6.10",
+    "vuetify": "^2.1.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.0.0",
@@ -18,7 +26,11 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.0",
+    "vue-cli-plugin-vuetify": "^1.1.1",
     "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.3.0",
     "webpack-cli": "^3.3.10"
   },
   "eslintConfig": {
@@ -27,8 +39,7 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
+      "plugin:vue/essential"
     ],
     "rules": {
       "no-console": "off"
